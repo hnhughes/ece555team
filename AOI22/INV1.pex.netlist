@@ -1,0 +1,148 @@
+* Design:	INV1
+* Created:	"Fri Nov 6 2026"
+* Vendor:	"Mentor Graphics Corporation"
+* Program:	"Calibre xACT 3D"
+* Version:	"v2017.4_19.14"
+* Corner Name: typical_27
+* Nominal Temperature: 25C
+* Circuit Temperature: 27C
+* 
+* Integrated TICER reduction is not enabled.
+* SHORT DELAY THRESHOLD: 2e-15
+* Fill Mode: NG
+* PEX REDUCE CC ABSOLUTE : 1
+* PEX REDUCE CC RELATIVE : 0.01
+* Delta transform mode : 344834
+
+* .include "INV1.pex.netlist.pex"
+
+* Start of included file INV1.pex.netlist.pex
+
+.subckt PM_INV1%IN VSS 24 10 16 9 3
+c1 1 VSS 0.005122f $X=0.081 $Y=0.135
+c2 3 VSS 0.0853479f $X=0.081 $Y=0.0245
+c3 4 VSS 0.0080866f $X=0.012 $Y=0.036
+c4 5 VSS 0.00139556f $X=0.012 $Y=0.1307
+c5 6 VSS 0.0080866f $X=0.012 $Y=0.234
+c6 7 VSS 0.00771304f $X=0.012 $Y=0.0855
+c7 8 VSS 0.00771304f $X=0.012 $Y=0.1845
+c8 9 VSS 0.00383679f $X=0.056 $Y=0.135
+r1 6 8 10.3626 $w=1.8e-08 $l=4.95e-08 $layer=M1 $thickness=3.6e-08 $X=0.012
++ $Y=0.234 $X2=0.012 $Y2=0.1845
+r2 4 7 10.3626 $w=1.8e-08 $l=4.95e-08 $layer=M1 $thickness=3.6e-08 $X=0.012
++ $Y=0.036 $X2=0.012 $Y2=0.0855
+r3 8 25 9.82685 $w=1.8e-08 $l=4.43e-08 $layer=M1 $thickness=3.6e-08 $X=0.012
++ $Y=0.1845 $X2=0.012 $Y2=0.1402
+r4 24 25 0.433689 $w=1.8e-08 $l=4.2e-09 $layer=M1 $thickness=3.6e-08 $X=0.02
++ $Y=0.136 $X2=0.012 $Y2=0.1402
+r5 24 5 0.535733 $w=1.8e-08 $l=5.3e-09 $layer=M1 $thickness=3.6e-08 $X=0.02
++ $Y=0.136 $X2=0.012 $Y2=0.1307
+r6 5 7 9.9289 $w=1.8e-08 $l=4.52e-08 $layer=M1 $thickness=3.6e-08 $X=0.012
++ $Y=0.1307 $X2=0.012 $Y2=0.0855
+r7 24 22 2.26632 $w=9.72973e-09 $l=1.8527e-08 $layer=M1 $thickness=3.6e-08
++ $X=0.02 $Y=0.136 $X2=0.0305 $Y2=0.135
+r8 9 20 5.82974 $w=1.8e-08 $l=2.5e-08 $layer=M1 $thickness=3.6e-08 $X=0.056
++ $Y=0.135 $X2=0.081 $Y2=0.135
+r9 9 22 5.94634 $w=1.8e-08 $l=2.55e-08 $layer=M1 $thickness=3.6e-08 $X=0.056
++ $Y=0.135 $X2=0.0305 $Y2=0.135
+r10 1 13 6.54019 $w=2.09524e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.21905e-08 $X=0.081 $Y=0.135 $X2=0.081 $Y2=0.135
+r11 1 20 19.3796 $w=1.8e-08 $l=1.8e-08 $layer=<ENCRYPTED_LAYER_4> $X=0.081
++ $Y=0.135 $X2=0.081 $Y2=0.135
+r12 16 15 14.6259 $w=2e-08 $l=4.3e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.081 $Y=0.2025 $X2=0.081 $Y2=0.1595
+r13 14 15 2.7211 $w=2e-08 $l=8e-09 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.081 $Y=0.1515 $X2=0.081 $Y2=0.1595
+r14 13 14 5.79936 $w=2e-08 $l=1.65e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.081 $Y=0.135 $X2=0.081 $Y2=0.1515
+r15 12 13 5.79936 $w=2e-08 $l=1.65e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.081 $Y=0.1185 $X2=0.081 $Y2=0.135
+r16 11 12 2.7211 $w=2e-08 $l=8e-09 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.081 $Y=0.1105 $X2=0.081 $Y2=0.1185
+r17 10 11 14.6259 $w=2e-08 $l=4.3e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.081 $Y=0.0675 $X2=0.081 $Y2=0.1105
+r18 10 3 14.6259 $w=2e-08 $l=4.3e-08 $layer=<ENCRYPTED_LAYER_23>
++ $thickness=5.6e-08 $X=0.081 $Y=0.0675 $X2=0.081 $Y2=0.0245
+.ends
+
+.subckt PM_INV1%OUT VSS 19 13 27 11 8 7
+c1 1 VSS 0.00972514f $X=0.108 $Y=0.0675
+c2 2 VSS 0.00972514f $X=0.108 $Y=0.2025
+c3 7 VSS 0.039141f $X=0.0935 $Y=0.0675
+c4 8 VSS 0.0391094f $X=0.0935 $Y=0.2025
+c5 9 VSS 0.00690476f $X=0.094 $Y=0.036
+c6 10 VSS 0.00686924f $X=0.135 $Y=0.234
+c7 11 VSS 0.00610921f $X=0.135 $Y=0.0855
+r1 8 2 0.154321 $w=8.1e-08 $l=1.25e-08 $layer=<ENCRYPTED_LAYER_49>
++ $thickness=1e-09 $X=0.0935 $Y=0.2025 $X2=0.108 $Y2=0.2025
+r2 27 8 0.0308642 $w=8.1e-08 $l=2.5e-09 $layer=<ENCRYPTED_LAYER_49>
++ $thickness=1e-09 $X=0.0906 $Y=0.2025 $X2=0.0935 $Y2=0.2025
+r3 2 23 19.3796 $w=1.8e-08 $l=1.8e-08 $layer=<ENCRYPTED_LAYER_7> $X=0.108
++ $Y=0.2025 $X2=0.108 $Y2=0.234
+r4 23 24 3.14806 $w=1.8e-08 $l=1.35e-08 $layer=M1 $thickness=3.6e-08 $X=0.108
++ $Y=0.234 $X2=0.1215 $Y2=0.234
+r5 10 21 10.3626 $w=1.8e-08 $l=4.95e-08 $layer=M1 $thickness=3.6e-08 $X=0.135
++ $Y=0.234 $X2=0.135 $Y2=0.1845
+r6 10 24 1.96775 $w=1.8e-08 $l=1.35e-08 $layer=M1 $thickness=3.6e-08 $X=0.135
++ $Y=0.234 $X2=0.1215 $Y2=0.234
+r7 20 21 10.9016 $w=1.8e-08 $l=4.68e-08 $layer=M1 $thickness=3.6e-08 $X=0.135
++ $Y=0.1377 $X2=0.135 $Y2=0.1845
+r8 19 20 1.57403 $w=1.8e-08 $l=6.7e-09 $layer=M1 $thickness=3.6e-08 $X=0.135
++ $Y=0.131 $X2=0.135 $Y2=0.1377
+r9 19 18 0.641272 $w=1.8e-08 $l=2.8e-09 $layer=M1 $thickness=3.6e-08 $X=0.135
++ $Y=0.131 $X2=0.135 $Y2=0.1282
+r10 11 17 10.3626 $w=1.8e-08 $l=4.95e-08 $layer=M1 $thickness=3.6e-08 $X=0.135
++ $Y=0.0855 $X2=0.135 $Y2=0.036
+r11 11 18 9.96886 $w=1.8e-08 $l=4.27e-08 $layer=M1 $thickness=3.6e-08 $X=0.135
++ $Y=0.0855 $X2=0.135 $Y2=0.1282
+r12 16 17 1.96775 $w=1.8e-08 $l=1.35e-08 $layer=M1 $thickness=3.6e-08 $X=0.1215
++ $Y=0.036 $X2=0.135 $Y2=0.036
+r13 15 16 3.14806 $w=1.8e-08 $l=1.35e-08 $layer=M1 $thickness=3.6e-08 $X=0.108
++ $Y=0.036 $X2=0.1215 $Y2=0.036
+r14 14 15 2.56509 $w=1.8e-08 $l=1.1e-08 $layer=M1 $thickness=3.6e-08 $X=0.097
++ $Y=0.036 $X2=0.108 $Y2=0.036
+r15 9 14 0.699569 $w=1.8e-08 $l=3e-09 $layer=M1 $thickness=3.6e-08 $X=0.094
++ $Y=0.036 $X2=0.097 $Y2=0.036
+r16 1 15 19.3796 $w=1.8e-08 $l=1.8e-08 $layer=<ENCRYPTED_LAYER_7> $X=0.108
++ $Y=0.0675 $X2=0.108 $Y2=0.036
+r17 7 1 0.154321 $w=8.1e-08 $l=1.25e-08 $layer=<ENCRYPTED_LAYER_48>
++ $thickness=1e-09 $X=0.0935 $Y=0.0675 $X2=0.108 $Y2=0.0675
+r18 13 7 0.0308642 $w=8.1e-08 $l=2.5e-09 $layer=<ENCRYPTED_LAYER_48>
++ $thickness=1e-09 $X=0.0906 $Y=0.0675 $X2=0.0935 $Y2=0.0675
+.ends
+
+
+* End of included file INV1.pex.netlist.pex
+
+
+
+*
+.SUBCKT INV1 VSS VDD IN OUT
+*
+* VSS VSS
+* VSS VSS
+* VDD VDD
+* VDD VDD
+* IN IN
+* OUT OUT
+*
+*
+
+MM1 N_MM1_d N_MM1_g VDD VDD pmos_rvt L=2e-08 W=8.1e-08 nfin=3
+MM0 N_MM0_d N_MM0_g VSS VSS nmos_rvt L=2e-08 W=8.1e-08 nfin=3
+
+
+* .include "INV1.pex.netlist.pxi"
+
+* Start of included file INV1.pex.netlist.pxi
+x_PM_INV1%IN VSS IN N_MM0_g N_MM1_g N_IN_9 N_IN_3 PM_INV1%IN
+x_PM_INV1%OUT VSS OUT N_MM0_d N_MM1_d N_OUT_11 N_OUT_8 N_OUT_7 PM_INV1%OUT
+cc_1 N_OUT_11 N_IN_9 0.00384978f $X=0.135 $Y=0.0855
+cc_2 N_OUT_8 N_IN_3 0.0151355f $X=0.0935 $Y=0.2025
+cc_3 N_OUT_7 N_IN_3 0.0616695f $X=0.0935 $Y=0.0675
+
+
+* End of included file INV1.pex.netlist.pxi
+.ENDS
+*
+

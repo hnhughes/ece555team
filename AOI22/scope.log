@@ -1,0 +1,68 @@
+Graph:Select Graph0
+Graph:DSel 0
+Graph:DSel
+ScopeSigMgr:loadpffile /userspace/hnhughes/ece555/ECE555/AOI22/AOI22test.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+1536+864
+pf:read PF:1 v(a1) v(b1) v(c1) v(d1) v(z)
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5} -region {new new new new new} -yview {real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4
+Mdi:ArrangeIcons
+wm geometry . 900x786+-61+30
+Mdi:ArrangeIcons
+wm geometry . 904x790+-61+30
+Mdi:ArrangeIcons
+wm geometry . 924x803+-61+30
+Mdi:ArrangeIcons
+wm geometry . 959x822+-61+30
+Mdi:ArrangeIcons
+wm geometry . 1012x839+-61+30
+Mdi:ArrangeIcons
+wm geometry . 1057x845+-61+30
+Mdi:ArrangeIcons
+wm geometry . 1119x858+-61+30
+Mdi:ArrangeIcons
+wm geometry . 1192x879+-61+30
+Mdi:ArrangeIcons
+wm geometry . 1243x899+-61+30
+Mdi:ArrangeIcons
+wm geometry . 1263x908+-61+30
+Mdi:ArrangeIcons
+wm geometry . 1295x918+-61+30
+Mdi:ArrangeIcons
+wm geometry . 1324x927+-61+30
+Mdi:ArrangeIcons
+wm geometry . 1334x931+-61+30
+Mdi:ArrangeIcons
+wm geometry . 1341x934+-61+30
+Mdi:ArrangeIcons
+wm geometry . 1342x935+-61+30
+wm geometry .sigmgr 467x236+442+161
+wm geometry .sigmgr 467x236+500+169
+wm geometry .sigmgr 467x236+556+177
+wm geometry .sigmgr 467x236+606+179
+wm geometry .sigmgr 467x236+647+181
+wm geometry .sigmgr 467x236+668+181
+wm geometry .sigmgr 467x236+678+179
+wm geometry .sigmgr 467x236+682+178
+wm geometry .sigmgr 467x236+685+177
+wm geometry .sigmgr 467x236+686+176
+wm geometry .sigmgr 467x236+687+176
+wm geometry .sigmgr 467x236+688+176
+Mdi:Resize 792 508
+Mdi:Move 5 5
+wm geometry .sigmgr 467x236+746+174
+wm geometry .sigmgr 467x236+792+172
+wm geometry .sigmgr 467x236+825+172
+wm geometry .sigmgr 467x236+844+172
+wm geometry .sigmgr 467x236+863+172
+wm geometry .sigmgr 467x236+871+171
+wm geometry .sigmgr 467x236+876+171
+wm geometry .sigmgr 467x236+884+171
+wm geometry .sigmgr 467x236+902+171
+wm geometry .sigmgr 467x236+915+170
+wm geometry .sigmgr 467x236+918+170
+wm geometry .sigmgr 467x236+919+170
+Mdi:Resize 934 654
+Mdi:Move 5 5
