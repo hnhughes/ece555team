@@ -1,0 +1,13 @@
+       1 xxor.
+       2 xload1.
+       3 xload2.
+       4 xload3.
+       5 xload4.
+       6 xload1.x_pm_inv1%in.
+       7 xload1.x_pm_inv1%out.
+       8 xload2.x_pm_inv1%in.
+       9 xload2.x_pm_inv1%out.
+      10 xload3.x_pm_inv1%in.
+      11 xload3.x_pm_inv1%out.
+      12 xload4.x_pm_inv1%in.
+      13 xload4.x_pm_inv1%out.
