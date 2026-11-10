@@ -7,7 +7,7 @@
 ## Setup (one time)
 1. Clone with SSH:
    ```
-   git clone git@github.com:nnhughes/ece555team.git
+   git clone git@github.com:hnhughes/ece555team.git
    ```
 2. Add this line to the end of your `cds.lib` (in the folder where you launch Virtuoso):
    ```
@@ -33,10 +33,3 @@
 - Each cell has one owner; do not edit someone else's cell without asking
 - Do not commit simulation outputs (.tr0, .mt0, etc.) or `.cdslck` files
 - Never put tokens or passwords in the repo
-
-## Cells
-| Cell  | Owner | Views |
-|-------|-------|-------|
-| AOI21 | Chung | schematic, symbol |
-| AOI22 |       |       |# ece555team
-Final Project Team
