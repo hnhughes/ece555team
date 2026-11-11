@@ -1,1 +1,5 @@
 *.cdslck
+*.cdslck*
+CDS.log*
+libManager.log*
+**/maestro/
